@@ -9,7 +9,7 @@ let users = [
     name: "zhufeng2",
   },
   {
-    id: 3,
+    id: 33,
     name: "zhufeng3",
   },
   {
@@ -17,6 +17,8 @@ let users = [
     name: "zhufeng4",
   },
 ];
+
+
 let server = http.createServer(function (req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   if (req.url == "/api/users") {
