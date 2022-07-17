@@ -1,6 +1,6 @@
 lib
 node_modules
-Dockerfile
+# Dockerfile
 
 # local env files
 .dockerignore
