@@ -3,7 +3,7 @@ node_modules
 # Dockerfile
 
 # local env files
-.dockerignore
+# .dockerignore
 .idea
 
 
